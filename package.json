@@ -4,5 +4,14 @@
   "description": "some css that all my websites use",
   "main": "jack.css",
   "author": "Jack5079",
-  "license": "MIT"
+  "license": "MIT",
+  "installConfig": {
+    "pnp": true
+  },
+  "devDependencies": {
+    "csslint": "^1.0.5"
+  },
+  "scripts": {
+    "test": "csslint jack.css"
+  }
 }
