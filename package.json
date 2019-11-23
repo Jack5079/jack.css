@@ -1,0 +1,8 @@
+{
+  "name": "jack.css",
+  "version": "1.0.0",
+  "description": "some css that all my websites use",
+  "main": "jack.css",
+  "author": "Jack5079",
+  "license": "MIT"
+}
