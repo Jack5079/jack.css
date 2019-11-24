@@ -27,6 +27,18 @@ aside {
   float: right;
 }
 
+blockquote {
+  font-style: italic;
+}
+
+blockquote::before {
+  content: '“'
+}
+
+blockquote::after {
+  content: '”'
+}
+
 button {
   outline: 0;
   border: 0;
