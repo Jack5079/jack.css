@@ -74,6 +74,10 @@ button:hover {
   box-shadow: inset 0 0 5px white;
 }
 
+a {
+  text-decoration: none;
+}
+
 @media (prefers-color-scheme: dark) {
   html, body {
     color: white;
@@ -81,6 +85,10 @@ button:hover {
   }
   footer {
     border-top: 1px solid white;
+  }
+  a {
+    color: skyblue;
+    border-bottom: 0.1em solid skyblue;
   }
 }
 
